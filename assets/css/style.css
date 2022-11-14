@@ -116,7 +116,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: var(--monospace-font-family);
+  font-family: monospace;
   font-size: 1em
 }
 pre {
@@ -172,6 +172,10 @@ ol,
 ul li,
 ol li {
   list-style: none
+}
+
+html, body {
+  font-family: Lato, Arial, sans-serif;
 }
 
 /* form validation errors */
